@@ -1,0 +1,63 @@
+
+//GiantDad
+//-------------------------
+//Dark Flame
+
+//Stunning Flurry
+
+//Leaping Slash
+
+//Light Roll
+
+//Trade Blows
+effect: .name "GD Riposte 1"  .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .on_hit true .on_miss true .duration 1
+effect: .name "GD Riposte 2"  .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .on_hit true .on_miss true .duration 1
+effect: .name "GD Riposte 3"  .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .on_hit true .on_miss true .duration 1
+effect: .name "GD Riposte 4"  .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .on_hit true .on_miss true .duration 1
+effect: .name "GD Riposte 5"  .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .on_hit true .on_miss true .duration 1
+
+//Self Blight Debuff
+effect: .name "Self Blight Debuff 1" .target "performer" .buff_ids blight_debuff_1 .on_hit true .on_miss true .duration 2
+effect: .name "Self Blight Debuff 2" .target "performer" .buff_ids blight_debuff_2 .on_hit true .on_miss true .duration 2
+effect: .name "Self Blight Debuff 3" .target "performer" .buff_ids blight_debuff_3 .on_hit true .on_miss true .duration 2
+effect: .name "Self Blight Debuff 4" .target "performer" .buff_ids blight_debuff_4 .on_hit true .on_miss true .duration 2
+effect: .name "Self Blight Debuff 5" .target "performer" .buff_ids blight_debuff_5 .on_hit true .on_miss true .duration 2
+
+//Self Bleed Debuff
+effect: .name "Self Bleed Debuff 1" .target "performer" .buff_ids bleed_debuff_1 .on_hit true .on_miss true .duration 2
+effect: .name "Self Bleed Debuff 2" .target "performer" .buff_ids bleed_debuff_2 .on_hit true .on_miss true .duration 2
+effect: .name "Self Bleed Debuff 3" .target "performer" .buff_ids bleed_debuff_3 .on_hit true .on_miss true .duration 2
+effect: .name "Self Bleed Debuff 4" .target "performer" .buff_ids bleed_debuff_4 .on_hit true .on_miss true .duration 2
+effect: .name "Self Bleed Debuff 5" .target "performer" .buff_ids bleed_debuff_5 .on_hit true .on_miss true .duration 2
+
+//Self Debuff Debuff
+
+//Taunted
+effect: .name "Taunted 1" .target "target" .curio_result_type "positive" .chance 999% .duration 3 .buff_ids .crit_chance_add 3% .attack_rating_add -10% .on_hit true .on_miss true
+effect: .name "Taunted 2" .target "target" .curio_result_type "positive" .chance 999% .duration 3 .buff_ids .crit_chance_add 4% .attack_rating_add -13% .on_hit true .on_miss true
+effect: .name "Taunted 3" .target "target" .curio_result_type "positive" .chance 999% .duration 3 .buff_ids .crit_chance_add 5% .attack_rating_add -16% .on_hit true .on_miss true 
+effect: .name "Taunted 4" .target "target" .curio_result_type "positive" .chance 999% .duration 3 .buff_ids .crit_chance_add 6% .attack_rating_add -19% .on_hit true .on_miss true 
+effect: .name "Taunted 5" .target "target" .curio_result_type "positive" .chance 999% .duration 3 .buff_ids .crit_chance_add 7% .attack_rating_add -22% .on_hit true .on_miss true 
+
+//Self Taunt
+effect: .name "Self taunt 1" .target "performer" .chance 999% .buff_ids .tag 1 .healstress 5 .on_hit true .on_miss true
+effect: .name "Self taunt 2" .target "performer" .chance 999% .buff_ids .tag 1 .healstress 5 .on_hit true .on_miss true
+effect: .name "Self taunt 3" .target "performer" .chance 999% .buff_ids .tag 1 .healstress 5 .on_hit true .on_miss true
+effect: .name "Self taunt 4" .target "performer" .chance 999% .buff_ids .tag 1 .healstress 5 .on_hit true .on_miss true
+effect: .name "Self taunt 5" .target "performer" .chance 999% .buff_ids .tag 1 .healstress 5 .on_hit true .on_miss true
+
+//Team Taunt Heal
+effect: .name "Team taunt heal 1" .target "performer_group_other" .chance 50% .buff_ids .healstress 5 .on_hit true .on_miss true
+effect: .name "Team taunt heal 2" .target "performer_group_other" .chance 50% .buff_ids .healstress 5 .on_hit true .on_miss true
+effect: .name "Team taunt heal 3" .target "performer_group_other" .chance 50% .buff_ids .healstress 5 .on_hit true .on_miss true
+effect: .name "Team taunt heal 4" .target "performer_group_other" .chance 50% .buff_ids .healstress 5  .on_hit true .on_miss true
+effect: .name "Team taunt heal 5" .target "performer_group_other" .chance 50% .buff_ids .healstress 5 .on_hit true .on_miss true
+
+//Team Taunt Hurt
+effect: .name "Team taunt hurt 1" .target "performer_group_other" .chance 50% .buff_ids .stress 3 .on_hit true .on_miss true
+effect: .name "Team taunt hurt 2" .target "performer_group_other" .chance 50% .buff_ids .stress 3 .on_hit true .on_miss true
+effect: .name "Team taunt hurt 3" .target "performer_group_other" .chance 50% .buff_ids .stress 3 .on_hit true .on_miss true
+effect: .name "Team taunt hurt 4" .target "performer_group_other" .chance 50% .buff_ids .stress 3 .on_hit true .on_miss true
+effect: .name "Team taunt hurt 5" .target "performer_group_other" .chance 50% .buff_ids .stress 3 .on_hit true .on_miss true
+
+//laugh- taunt is supposed to stress heal the whole party, not sure how to do that yet

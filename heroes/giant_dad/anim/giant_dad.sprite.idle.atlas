@@ -1,0 +1,13 @@
+
+giant_dad.sprite.idle.png
+size: 356,829
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+idle
+  rotate: false
+  xy: 2, 2
+  size: 352, 825
+  orig: 352, 825
+  offset: 0, 0
+  index: -1
