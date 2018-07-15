@@ -828,11 +828,11 @@ effect: .name "GR Self Speed 5" .target "performer" .curio_result_type "positive
 //Light Roll
 
 //Trade Blows
-effect: .name "GD Riposte 1"  .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .on_hit true .on_miss true .duration 2
-effect: .name "GD Riposte 2"  .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .on_hit true .on_miss true .duration 2
-effect: .name "GD Riposte 3"  .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .on_hit true .on_miss true .duration 2
-effect: .name "GD Riposte 4"  .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .on_hit true .on_miss true .duration 2
-effect: .name "GD Riposte 5"  .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .on_hit true .on_miss true .duration 2
+effect: .name "GD Riposte 1"  .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .on_hit true .on_miss true .duration 2  .damage_low_add 0.00 .damage_high_add 0.00 .attack_rating_add 0.00 .crit_chance_add 0%
+effect: .name "GD Riposte 2"  .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .on_hit true .on_miss true .duration 2  .damage_low_add 0.00 .damage_high_add 0.00 .attack_rating_add 0.00 .crit_chance_add 0%
+effect: .name "GD Riposte 3"  .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .on_hit true .on_miss true .duration 2  .damage_low_add 0.00 .damage_high_add 0.00 .attack_rating_add 0.00 .crit_chance_add 0%
+effect: .name "GD Riposte 4"  .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .on_hit true .on_miss true .duration 2  .damage_low_add 0.00 .damage_high_add 0.00 .attack_rating_add 0.00 .crit_chance_add 0%
+effect: .name "GD Riposte 5"  .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .on_hit true .on_miss true .duration 2  .damage_low_add 0.00 .damage_high_add 0.00 .attack_rating_add 0.00 .crit_chance_add 0%
 
 //Self Blight Debuff
 effect: .name "Self Blight Debuff 1" .target "performer" .buff_ids blight_debuff_1 .on_hit true .on_miss true .duration 2
